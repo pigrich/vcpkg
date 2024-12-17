@@ -1,0 +1,16 @@
+{
+    "name": "ormpp",
+    "version": "0.1.3",
+    "description": "modern C++ ORM, C++17, support mysql, postgresql,sqlite",
+    "homepage": "https://github.com/qicosmos/ormpp",
+    "license": "Apache-2.0",
+    "dependencies": [
+        "libmysql",
+        "sqlite3",
+        "libpq",
+        {
+            "name": "vcpkg-cmake",
+            "host": true
+        }
+    ]
+}

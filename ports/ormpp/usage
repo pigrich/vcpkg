@@ -1,0 +1,4 @@
+ormpp provides CMake targets:
+
+    find_package(ormpp CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE ormpp::ormpp)
